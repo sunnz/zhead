@@ -7,8 +7,8 @@ def main():
     parser.add_argument('filename', help='filename of the compressed text file.')
     args = parser.parse_args()
 
-    with gzip.open(args.filename, 'r') as f:
-        print(f.readline())
+    with gzip.open(args.filename, 'rt') as f:
+        print(f.readline(), end='')
 
 if __name__ == '__main__':
     main()
