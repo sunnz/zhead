@@ -20,7 +20,7 @@ throws an horrible uncaught exception/error when the format is in fact
 plain text or simply not gzip, and not tested with a binary file
 that happens to be gzipped.
 
-## License
+## license
 
 zhead is available under the ISC license:
 
